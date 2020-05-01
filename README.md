@@ -97,6 +97,7 @@ y_train = np_utils.to_categorical(y_train, 10)
 y_test = np_utils.to_categorical(y_test, 10)
 x_train = x_train
 x_test = x_test
+```
 
 
 ### 3.CNN神经网络
