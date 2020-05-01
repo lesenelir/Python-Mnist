@@ -82,7 +82,7 @@ print('\nTest Acc:', result[1])  # Test Acc: 0.9603
 ##### 注意：
 >在训练数据之前要对数据进行预处理
 >
->```
+```
 # 修改shape
 x_train = x_train.reshape(-1, 28, 28, 1)
 x_test = x_test.reshape(-1, 28, 28, 1)
